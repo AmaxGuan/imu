@@ -9,7 +9,7 @@ repository.workspace = true
 license.workspace = true
 
 [dependencies]
-serialport = "4.2.0"
+serialport = { version = "4.2.0", default-features = false }
 
 [lib]
 
